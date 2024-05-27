@@ -2,7 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -30,4 +35,12 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+} */
+
+::-webkit-scrollbar {
+  display: none;
 }
+
+/* .navigation-links {
+  backdrop-filter: blur(10px);
+} */
